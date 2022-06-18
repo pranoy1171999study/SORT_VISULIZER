@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin:0px;
+}
+header{
+    height:120px;
+    width:100%;
+    background-color: rgb(41, 86, 105);
+    padding:10px;
+}
+#brand{
+    color:rgb(252, 210, 0);
+    font-weight:bold;
+    font-size:30px;
+    text-align:center ;
+    float:left;
+    width: 100%;
+}
+#choose-sort{
+    margin-bottom:10px;
+    color: black;
+    background-color: rgb(245, 220, 190);
+}
+#get-time{
+    color: black;
+    background-color: rgb(245, 220, 190);
+}
+#bar-style{
+    color: black;
+    background-color: rgb(245, 220, 190);
+}
+#get-array{
+    float:left;
+    resize:none;
+    font-size: 15px;
+    height:40px;
+    width:200px;
+    background-color: rgb(255, 255, 255);
+    border:2px solid rgb(255, 207, 141)
+}
+#set{
+    float:left;
+    margin-left:20px;
+    height:30px;
+    width:60px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(117, 84, 0);
+    border:2px solid rgb(130, 78, 0);
+
+}
+
+#show-array{
+    
+    height:auto;
+    width:100%;
+    overflow: hidden;
+    color: rgb(0, 0, 0);
+}
+#notice{
+    margin: auto;
+    margin-top: 20px;
+    height:70px;
+    width: 300px;
+    background-color: antiquewhite;
+    padding-top:10px;
+    border:4px solid black;
+    border-radius: 10px;
+    visibility: hidden;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+#array-bars{
+    height:auto;
+    width: 98%;
+    overflow: hidden;
+    margin: 1%;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding-top: 20px;
+}
+.recArrBox{
+    text-align:center;
+    height:50px; 
+    float:left; 
+}
+.level{
+    box-sizing: border-box;
+    width: 100%;
+}
+.levelbox{
+    float: left;
+    margin-top: 10px;
+    box-sizing: border-box;
+    height: 50px;
+    visibility:visible; 
+}
+.recarrbox{
+    text-align: center;
+    float: left;
+    height: 50px;
+    border: 2px solid black;
+    color: black;
+    padding-top: 10px;
+}

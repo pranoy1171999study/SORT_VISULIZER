@@ -1,0 +1,40 @@
+.arr-box{
+    float:left;
+    background-color: bisque;
+    border:2px solid black;
+    border-left:0px;
+    padding:3px;
+    text-align: center;
+    min-width: 30px;
+}
+.array-bar-container{
+    float:left;
+    position: relative;
+    height:320px;
+    width: 10%;
+    background-color: antiquewhite;
+}
+.array-bar{
+    position: absolute;
+    bottom:20px;
+    height: 10px;
+    width:100%;
+    text-align: center;
+    border:2px solid black;
+    border-radius: 40% 40% 0px 0px;
+    background-color: cadetblue;
+    min-height: 10px;
+    font-size: 12;
+    overflow: visible;
+    
+}
+.array-bar-txt{
+    position: absolute;
+    bottom:0px;
+    width:100%;
+    text-align: center;
+    border-top:2px solid black;
+    background-color: rgb(147, 168, 169);
+    height: 20px;
+    font-size: 12;
+}

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Sort Visuliser</title>
+        <link rel="stylesheet" href="css/utils.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <header>
+            <h  id="brand">SORT VISUALIZER</h>
+            <select id="choose-sort" name="sort-options">
+                <option value="1" selected>Bubble Sort</option>
+                <option value="2">Insertion Sort</option>
+                <option value="3">Merge Sort</option>
+                <option value="4">Quick Sort</option>
+            </select>
+            <select id="get-time">
+                <option value="2000" >0.25x</option>
+                <option value="1000" >0.5x</option>
+                <option value="750" >0.75x</option>
+                <option value="500" selected>1x</option>
+                <option value="375" >1.5x</option>
+                <option value="250" >2x</option>
+                <option value="125" >4x</option>
+                <option value="50" >10x</option>
+            </select>
+           <!-- <select id="bar-style">
+                <option value="1" >Mile Stone</option>
+                <option value="2" selected>Box</option>
+            </select>--><br>
+            
+
+            <textarea id="get-array" placeholder="15,21,12...(max elements 30)" name="array" aria-setsize=""></textarea>
+            </textarea>
+            
+            <button id="set">
+                Go!
+            </button>
+        </header>
+    </head>
+    <body>
+        <div id="show-array">
+        </div>
+        <div><div id="notice"></div></div>
+        <div id="array-bars"></div>
+        </div>
+        <script src="js/script.js"></script>
+        <br><br.<footer>&copy;pranoy 2022</footer>
+    </body>
+</html>
